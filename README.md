@@ -51,7 +51,7 @@ To evaluate the trained model for Open Set Classification Rate (OSCR) and Out-of
     <img src=./img/thumb.jpg width="600"> 
 </p>
 
-A new large-scale challenging aircraft dataset for open set recognition: [Aircraft 300 (Air-300)](https://github.com/iCGY96/ARPL/blob/main/AIR300.md). It contains 320,000 annotated colour images from 300 different classes in total. Each category contains 100 images at least, and a maximum of 10,000 images, which leads to the long tail distribution. 
+A new large-scale challenging aircraft dataset for open set recognition: [Aircraft 300 (Air-300)](https://github.com/iCGY96/ARPL/blob/master/AIR300.md). It contains 320,000 annotated colour images from 300 different classes in total. Each category contains 100 images at least, and a maximum of 10,000 images, which leads to the long tail distribution. 
 
 
 ## Citation
