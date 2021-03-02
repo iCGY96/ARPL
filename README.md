@@ -1,5 +1,5 @@
 # Adversarial Reciprocal Points Learning for Open Set Recognition
-Official PyTorch implementation of ["**Adversarial Reciprocal Points Learning for Open Set Recognition**"](https://arxiv.org/abs/XXXX).
+Official PyTorch implementation of ["**Adversarial Reciprocal Points Learning for Open Set Recognition**"](https://arxiv.org/abs/2103.00953).
 
 <p align="center">
     <img src=./img/ARPL.jpg width="800">
@@ -55,9 +55,19 @@ A new large-scale challenging aircraft dataset for open set recognition: [Aircra
 
 
 ## Citation
+- If you find our work or the code useful, please consider cite our paper using:
+```bibtex
+@inproceedings{chen2021adversarial,
+    title={Adversarial Reciprocal Points Learning for Open Set Recognition},
+    author={Chen, Guangyao and Peng, Peixi and Wang, Xiangqian and Tian, Yonghong},
+    journal={arXiv preprint arXiv:2103.00953},
+    year={2021}
+}
+```
+
 
 - All publications using Air-300 Dataset should cite the paper below:
-```
+```bibtex
 @InProceedings{chen_2020_ECCV,
     author = {Chen, Guangyao and Qiao, Limeng and Shi, Yemin and Peng, Peixi and Li, Jia and Huang, Tiejun and Pu, Shiliang and Tian, Yonghong},
     title = {Learning Open Set Network with Discriminative Reciprocal Points},
