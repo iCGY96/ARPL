@@ -1,5 +1,7 @@
-# Adversarial Reciprocal Points Learning for Open Set Recognition
-Official PyTorch implementation of ["**Adversarial Reciprocal Points Learning for Open Set Recognition**"](https://arxiv.org/abs/2103.00953).
+# Adversarial Reciprocal Points Learning for Open Set Recognition (TPAMI'21)
+Official PyTorch implementation of ["**Adversarial Reciprocal Points Learning for Open Set Recognition**"](https://arxiv.org/abs/2103.00953), [Guangyao Chen](https://scholar.google.com/citations?hl=zh-CN&user=zvHHe1UAAAAJ), [Peixi Peng](https://scholar.google.com/citations?hl=zh-CN&user=CFMuFGoAAAAJ), Xiangqian Wang, and [Yonghong Tian](https://scholar.google.com/citations?hl=zh-CN&user=fn6hJx0AAAAJ).
+
+> **Abstract:** *Open set recognition (OSR), aiming to simultaneously classify the seen classes and identify the unseen classes as 'unknown', is essential for reliable machine learning.The key challenge of OSR is how to reduce the empirical classification risk on the labeled known data and the open space risk on the potential unknown data simultaneously. To handle the challenge, we formulate the open space risk problem from the perspective of multi-class integration, and model the unexploited extra-class space with a novel concept Reciprocal Point. Follow this, a novel learning framework, termed Adversarial Reciprocal Point Learning (ARPL), is proposed to minimize the overlap of known distribution and unknown distributions without loss of known classification accuracy. Specifically, each reciprocal point is learned by the extra-class space with the corresponding known category, and the confrontation among multiple known categories are employed to reduce the empirical classification risk. Then, an adversarial margin constraint is proposed to reduce the open space risk by limiting the latent open space constructed by reciprocal points. To further estimate the unknown distribution from open space, an instantiated adversarial enhancement method is designed to generate diverse and confusing training samples, based on the adversarial mechanism between the reciprocal points and known classes. This can effectively enhance the model distinguishability to the unknown classes. Extensive experimental results on various benchmark datasets indicate that the proposed method is significantly superior to other existing approaches and achieves state-of-the-art performance.*
 
 <p align="center">
     <img src=./img/ARPL.jpg width="800">
@@ -55,12 +57,12 @@ A new large-scale challenging aircraft dataset for open set recognition: [Aircra
 
 
 ## Citation
-- If you find our work or the code useful, please consider cite our paper using:
+If you find our work, this repository and pretrained adversarial generators useful. Please consider giving a star :star: and citation.
 ```bibtex
-@inproceedings{chen2021adversarial,
+@article{chen2021adversarial,
     title={Adversarial Reciprocal Points Learning for Open Set Recognition},
     author={Chen, Guangyao and Peng, Peixi and Wang, Xiangqian and Tian, Yonghong},
-    journal={arXiv preprint arXiv:2103.00953},
+    journal={IEEE transactions on pattern analysis and machine intelligence},
     year={2021}
 }
 ```
