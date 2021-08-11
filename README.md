@@ -57,7 +57,7 @@ A new large-scale challenging aircraft dataset for open set recognition: [Aircra
 
 
 ## Citation
-If you find our work, this repository and pretrained adversarial generators useful. Please consider giving a star :star: and citation.
+If you find our work and this repository useful. Please consider giving a star :star: and citation.
 ```bibtex
 @article{chen2021adversarial,
     title={Adversarial Reciprocal Points Learning for Open Set Recognition},
