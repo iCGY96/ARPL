@@ -60,10 +60,11 @@ A new large-scale challenging aircraft dataset for open set recognition: [Aircra
 If you find our work and this repository useful. Please consider giving a star :star: and citation.
 ```bibtex
 @article{chen2021adversarial,
-    title={Adversarial Reciprocal Points Learning for Open Set Recognition},
-    author={Chen, Guangyao and Peng, Peixi and Wang, Xiangqian and Tian, Yonghong},
-    journal={IEEE transactions on pattern analysis and machine intelligence},
-    year={2021}
+  author={Chen, Guangyao and Peng, Peixi and Wang, Xiangqian and Tian, Yonghong},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Adversarial Reciprocal Points Learning for Open Set Recognition}, 
+  year={2021},
+  doi={10.1109/TPAMI.2021.3106743}
 }
 ```
 
