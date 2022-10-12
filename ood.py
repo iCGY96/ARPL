@@ -164,14 +164,16 @@ def main():
             print("==> Test")
             results = test(net, criterion, testloader, outloader, epoch=epoch, **options)
             print("Acc (%): {:.3f}\t AUROC (%): {:.3f}\t OSCR (%): {:.3f}\t".format(results['ACC'], results['AUROC'], results['OSCR']))
-
-            save_networks(net, model_path, file_name, criterion=criterion)
-            if options['cs']: 
-                save_GAN(netG, netD, model_path, file_name)
-                fake = netG(fixed_noise)
-                GAN_path = os.path.join(model_path, 'samples')
-                mkdir_if_missing(GAN_path)
-                vutils.save_image(fake.data, '%s/gan_samples_epoch_%03d.png'%(GAN_path, epoch), normalize=True)
+            
+            if results['AUROC'] + results['ACC'] > score_now:
+                score_now = results['AUROC'] + results['ACC']
+                save_networks(net, model_path, file_name, criterion=criterion)
+                if options['cs']: 
+                    save_GAN(netG, netD, model_path, file_name)
+                    fake = netG(fixed_noise)
+                    GAN_path = os.path.join(model_path, 'samples')
+                    mkdir_if_missing(GAN_path)
+                    vutils.save_image(fake.data, '%s/gan_samples_epoch_%03d.png'%(GAN_path, epoch), normalize=True)
 
         if options['stepsize'] > 0: scheduler.step()
 
