@@ -18,7 +18,7 @@ Currently, requires following packages
 
 ### Datasets
 For Tiny-ImageNet, please download the following datasets to ```./data/tiny_imagenet```.
--   [tiny_imagenet](https://drive.google.com/file/d/1oJe95WxPqEIWiEo8BI_zwfXDo40tEuYa/view?usp=sharing)
+-   [tiny_imagenet](https://drive.google.com/file/d/1vR8ltP_U0UCM42pqz8q4mTbXcvipNNWP/view?usp=sharing)
 
 ## 2. Training & Evaluation
 
